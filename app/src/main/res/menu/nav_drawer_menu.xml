@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/handmadeCategoryFragment"
+            android:title="@string/handmade" />
+        <item
+            android:id="@+id/kidsCategoryFragment"
+            android:title="@string/kids" />
+        <item
+            android:id="@+id/homeCategoryFragment"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/menCategoryFragment"
+            android:title="@string/men" />
+        <item
+            android:id="@+id/sportsCategoryFragment"
+            android:title="@string/sports_amp_outdoors" />
+        <item
+            android:id="@+id/womenCategoryFragment"
+            android:title="@string/women" />
+        <item
+            android:id="@+id/beautyCategoryFragment"
+            android:title="@string/beauty" />
+        <item
+            android:id="@+id/electronicsCategoryFragment"
+            android:title="@string/electronics" />
+        <item
+            android:id="@+id/vintageCategoryFragment"
+            android:title="@string/vintage_amp_collectibles" />
+    </group>
+</menu>

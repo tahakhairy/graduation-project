@@ -7,8 +7,8 @@
     <fragment
         android:id="@+id/homePageFragment"
         android:name="com.tahakhairy.android.graduationproject.ui.HomePageFragment"
-        android:label="fragment_home_page"
-        tools:layout="@layout/fragment_home_page" >
+        android:label="Home"
+        tools:layout="@layout/fragment_home_page">
         <action
             android:id="@+id/action_homePageFragment_to_loginFragment"
             app:destination="@id/loginFragment" />
@@ -16,8 +16,8 @@
     <fragment
         android:id="@+id/loginFragment"
         android:name="com.tahakhairy.android.graduationproject.ui.LoginFragment"
-        android:label="fragment_login"
-        tools:layout="@layout/fragment_login" >
+        android:label="Profile"
+        tools:layout="@layout/fragment_login">
         <action
             android:id="@+id/action_loginFragment_to_signupFragment"
             app:destination="@id/signupFragment"
@@ -36,11 +36,56 @@
     <fragment
         android:id="@+id/signupFragment"
         android:name="com.tahakhairy.android.graduationproject.ui.SignupFragment"
-        android:label="fragment_signup"
+        android:label="Profile"
         tools:layout="@layout/fragment_signup" />
     <fragment
         android:id="@+id/resetPasswordFragment"
         android:name="com.tahakhairy.android.graduationproject.ui.ResetPasswordFragment"
-        android:label="fragment_frogot_password"
+        android:label="Reset Password"
         tools:layout="@layout/fragment_frogot_password" />
+    <fragment
+        android:id="@+id/menCategoryFragment"
+        android:name="com.tahakhairy.android.graduationproject.ui.MenCategoryFragment"
+        android:label="Men"
+        tools:layout="@layout/fragment_men" />
+    <fragment
+        android:id="@+id/handmadeCategoryFragment"
+        android:name="com.tahakhairy.android.graduationproject.ui.HandmadeCategoryFragment"
+        android:label="Handmade"
+        tools:layout="@layout/fragment_handmade" />
+    <fragment
+        android:id="@+id/kidsCategoryFragment"
+        android:name="com.tahakhairy.android.graduationproject.ui.KidsCategoryFragment"
+        android:label="Kids"
+        tools:layout="@layout/fragment_kids" />
+    <fragment
+        android:id="@+id/homeCategoryFragment"
+        android:name="com.tahakhairy.android.graduationproject.ui.HomeCategoryFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home_category" />
+    <fragment
+        android:id="@+id/sportsCategoryFragment"
+        android:name="com.tahakhairy.android.graduationproject.ui.SportsCategoryFragment"
+        android:label="Sports &amp; Outdoors"
+        tools:layout="@layout/fragment_sports" />
+    <fragment
+        android:id="@+id/womenCategoryFragment"
+        android:name="com.tahakhairy.android.graduationproject.ui.WomenCategoryFragment"
+        android:label="Women"
+        tools:layout="@layout/fragment_women" />
+    <fragment
+        android:id="@+id/beautyCategoryFragment"
+        android:name="com.tahakhairy.android.graduationproject.ui.BeautyCategoryFragment"
+        android:label="Beauty"
+        tools:layout="@layout/fragment_beauty" />
+    <fragment
+        android:id="@+id/electronicsCategoryFragment"
+        android:name="com.tahakhairy.android.graduationproject.ui.ElectronicsCategoryFragment"
+        android:label="Electronics"
+        tools:layout="@layout/fragment_electronics" />
+    <fragment
+        android:id="@+id/vintageCategoryFragment"
+        android:name="com.tahakhairy.android.graduationproject.ui.VintageCategoryFragment"
+        android:label="Vintage"
+        tools:layout="@layout/fragment_vintage" />
 </navigation>

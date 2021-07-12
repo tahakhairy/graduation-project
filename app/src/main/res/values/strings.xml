@@ -17,4 +17,19 @@
     <string name="reset_password_btn">Reset Password</string>
     <string name="seller">Seller</string>
     <string name="buyer">Buyer</string>
+    <string name="handmade">Handmade</string>
+    <string name="kids">Kids</string>
+    <string name="men">Men</string>
+    <string name="sports_amp_outdoors"><![CDATA[Sports & Outdoors]]></string>
+    <string name="women">Women</string>
+    <string name="beauty">Beauty</string>
+    <string name="electronics">Electronics</string>
+    <string name="vintage_amp_collectibles"><![CDATA[Vintage & Collectibles]]></string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="tops_cat">Tops</string>
+    <string name="sweaters_cat">Sweaters</string>
+    <string name="jeans_cat">Jeans</string>
+    <string name="sweats_amp_hoodies"><![CDATA[Sweats & Hoodies]]></string>
+    <string name="categories">Categories</string>
 </resources>
